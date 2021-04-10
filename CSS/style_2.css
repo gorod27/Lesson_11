@@ -4,3 +4,83 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #000;
+}
+main {
+  width: 31.3%;
+  height: 46.5%;
+  background-image: url(../img/background_crop.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  /* border: 1px solid red; */
+}
+.main__content {
+  margin:  auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.article {
+  width: 86%;
+  height: 390px;
+  background-color: #111a28;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 10px;
+}
+.article__content {
+  margin:  auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.img__nike-s-b-stefan-janoski{
+  margin-top: 5.5%;
+  margin-left: 5%;
+}
+.nike__logo-img {
+  width: 100%;
+}
+.nike__logo-div {
+  width: 10.5%;
+}
+.nike__logo-position {
+  margin: 4% 4%;
+}
+ul {
+  list-style-type: none;
+  margin-left: 25%;
+  margin-top: 8%;
+}
+li {
+  display: inline-block;
+  margin: 3px;
+}
+.slider__button {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+    color: white;
+    
+}
+.slider__button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #7b838e;
+}
+.slider__button-blue {
+  background-color: #1f273f;
+}
+.slider__button-white {
+  background-color: #fff;
+}
+.slider__button-red {
+  background-color: red;
+}
+.slider__button-aqua {
+  background-color: aqua;
+}
