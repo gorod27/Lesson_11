@@ -10,3 +10,7 @@
   font-family: 'Pacifico-Regular';
   src: url('../fonts/Pacifico-Regular.ttf');
 }
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  src: url('../fonts/MuseoSansRounded-100.woff');
+}

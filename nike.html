@@ -16,15 +16,36 @@
         </div>
         <img class="img__nike-shoes img__nike-s-b-stefan-janoski" src="img/Nike-SB-Stefan-Janoski.png" alt="">
         <div class="batton">
-        <ul>
-          <li ><button class="slider__button slider__button-blue" type="button"></button></li>
-          <li><button class="slider__button slider__button-white" type="button"></button></li>
-          <li><button class="slider__button slider__button-red" type="button"></button></li>
-          <li><button class="slider__button slider__button-aqua" type="button"></button></li>
+        <ul class="slider slider__list">
+          <li class="slider__item"><button class="slider__button" type="button"></button></li>
+          <li class="slider__item"><button class="slider__button slider__button-white" type="button"></button></li>
+          <li class="slider__item"><button class="slider__button slider__button-red" type="button"></button></li>
+          <li class="slider__item"><button class="slider__button slider__button-aqua" type="button"></button></li>
         </ul>
       </div>
       </section>
-      <section></section>
+      <section class="product__description ">
+        <span class="description description__nike description__text">Nike SB Stefan Janoski Max</span>
+        <span class="description description__text description__specific">Unisex Skateboarding Shoe</span>
+        <div class="stars">
+        <img src="img/stars.png" alt="">
+        </div>
+        <form action="#" method="post">
+        <select class="select select__format" name="size" id="size">
+          <option value="size">Size</option>
+          <option value="36">36</option>
+          <option value="size">41</option>
+          <option value="size">43</option>
+        </select>
+        <select class="select select__format-qty" name="quantity" id="qty">
+          <option value="Qty">Qty</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <input class="button button__submit" type="submit" value="add to cart">
+      </form>
+      </section>
     </article>
   </main>
 </body>

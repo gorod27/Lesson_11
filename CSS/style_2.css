@@ -5,24 +5,26 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #000;
+    background-color: #000;
 }
-main {
-  width: 31.3%;
-  height: 46.5%;
+.main {
+  width: 60%;
+  height: 600px;
   background-image: url(../img/background_crop.png);
   background-size: auto;
   background-repeat: no-repeat;
-  /* border: 1px solid red; */
+  position: relative;
 }
 .main__content {
-  margin:  auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  margin: 10.5% 18.5% ;
+}
+.img__nike-shoes {
+  width: 50%;
 }
 .article {
-  width: 86%;
-  height: 390px;
+  display: flex;
+  width: 84%;
+  height: 65%;
   background-color: #111a28;
   box-shadow: 1px 1px 20px black;
   border-radius: 10px;
@@ -32,25 +34,34 @@ main {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
+.product__content {
+  width: 60%;
+  height: 100%;
+}
+.img__nike-shoes {
+  width: 80%;
+}
 .img__nike-s-b-stefan-janoski{
-  margin-top: 5.5%;
-  margin-left: 5%;
+  margin-top: 13%;
+  margin-left: 10%;
 }
 .nike__logo-img {
   width: 100%;
 }
 .nike__logo-div {
-  width: 10.5%;
+  width: 16%;
 }
 .nike__logo-position {
   margin: 4% 4%;
 }
-ul {
+.slider {
   list-style-type: none;
-  margin-left: 25%;
-  margin-top: 8%;
 }
-li {
+.slider__list {
+  margin-left: 40%;
+  margin-top: 20%;
+}
+.slider__item {
   display: inline-block;
   margin: 3px;
 }
@@ -61,19 +72,14 @@ li {
     margin: 0;
     padding: 0;
     border: none;
-    background-color: blue;
     cursor: pointer;
     border-radius: 50%;
     transition: all .2s ease-in-out;
-    color: white;
-    
+    background-color: #1f273f;
 }
 .slider__button:focus {
   outline: none;
   box-shadow: 0 0 0 2px #7b838e;
-}
-.slider__button-blue {
-  background-color: #1f273f;
 }
 .slider__button-white {
   background-color: #fff;
@@ -84,3 +90,54 @@ li {
 .slider__button-aqua {
   background-color: aqua;
 }
+.product__description {
+  width: 40%;
+}
+.description__text {
+  margin: 30% 5% 0 5%;
+}
+.description {
+  display: inline-block;
+}
+.description__specific, .select, .button, .description  {
+  color: #484f59;
+  font-family: 'Museo Sans Rounded';
+  font-size: 14px;
+}
+.description__nike {
+  color: #dedede;
+  font-size: 24px;
+}
+.description__specific {
+  margin-top: 5%; 
+}
+.stars {
+  margin: 5%;
+}
+.select {
+  border: 1px solid gray;
+  width: 30%;
+  background-color: #111a28;
+  padding: 5px 10px;
+}
+.select__format {
+  margin-left: 5%;;
+}
+.select__format-qty {
+  margin-right: 15%;
+}
+.button {
+  width: 70%;
+  height: 4vh;
+  border: 1px solid gray;
+  background-color: #202835;
+}
+.button__submit {
+  margin: 10% 5%;
+}
+.button:focus {
+  outline: none;
+  position: relative;
+  top: 1px;
+}
+
